@@ -31,7 +31,7 @@ void InitTime(void)
 
 	//テクスチャ読み込み 
 	D3DXCreateTextureFromFile(pDevice,
-		"data//TEXTURE//number001.png",
+		"data//TEXTURE//number000.png",
 		&g_pTextureTime);
 
 	//位置の初期化

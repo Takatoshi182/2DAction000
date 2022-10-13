@@ -90,7 +90,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hInstancePrev, LPSTR lCmdLine,
 		NULL);						//ウィンドウ生成データ
 
 	//初期化処理(ダメだった時の処理)
-	if (FAILED(Init(hInstance, hWnd, FALSE)))	//フルスクリーン対応済み
+	if (FAILED(Init(hInstance, hWnd, TRUE)))	//フルスクリーン対応済み
 
 	{//初期化失敗
 		return -1;
